@@ -34,7 +34,7 @@ Examples:
 
 <br/>
 
-![images/coordinates.png](slides/images/coordinates.png)
+![https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/coordinates.png](https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/coordinates.png)
 
 <br/>
 
@@ -60,7 +60,7 @@ function draw() {
 }
 ```
 
-![images/position.png](slides/images/position.png)
+![https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/position.png](https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/position.png)
 
 When a program starts, the mouseX and mouseY values are 0. If the cursor moves into the display window, the values are set to the current position of the cursor. If the cursor is at the left, the mouseX value is 0 and the value increases as the cursor moves to the right. If the cursor is at the top, the mouseY value is 0 and the value increases as the cursor moves down. If mouseX and mouseY are used in programs without a draw() or if noLoop() is run in setup(), the values will always be 0.
 
@@ -88,7 +88,7 @@ Code inside this block is run one time when the mouse is moved while a mouse but
 # A drawing app
 Combine what we learned above to create a drawing app. Use your mouse do draw.
 
-![images/events.png](slides/images/events.png)
+![https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/events.png](https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/events.png)
 
 ```
 function mouseDragged() {
@@ -112,7 +112,7 @@ Since we can now keep track of our mouse position and click events, we can begin
 
 The first step is to calculate if our `mouseX`, `mouseY` positions are within the bounding box of our object. Let's start with simple rectangle and ellipse shapes.
 
-![images/buttons.png](slides/images/buttons.png)
+![https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/buttons.png](https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/buttons.png)
 
 https://processing.org/examples/button.html
 
@@ -160,7 +160,7 @@ if(distance < 50) {
 # Keyboard Events
 Processing registers the most recently pressed key and whether a key is currently pressed. The boolean variable keyPressed is true if a key is pressed and is false if not. Include this variable in the test of an if structure to allow lines of code to run only if a key is pressed. The keyPressed variable remains true while the key is held down and becomes false only when the key is released.
 
-![images/cat.jpg](slides/images/cat.jpg)
+![https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/cat.jpg](https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/cat.jpg)
 
 
 ##### keyPressed()
@@ -250,7 +250,7 @@ function mouseMoved() {
 
 # Touch Events
 
-![images/touch.png](slides/images/touch.png)
+![https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/touch.png](https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/touch.png)
 
 
 ##### touchStarted()
@@ -295,7 +295,7 @@ NOTE: The touches[] array is not supported on Safari and IE on touch-based deskt
 # Mobile
 p5 also supports mobile devices. You may be wondering how do we get our applications running on our phones. Earlier we talked about code 'living' in sperate places like a server versus locally on our machines.
 
-![images/button.jpg](slides/images/button.jpg)
+![https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/button.jpg](https://raw.githubusercontent.com/areaofeffect/hello-world/master/week7/slides/images/button.jpg)
 
 As long as our phones and computer running on the same wifi - your app should work on your phone but connecting your browser to your computers IP and PORT.
 
